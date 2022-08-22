@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.game-board {
+  margin-top: 20px;
+}
+
+.button-reset {
+  border-radius: 8px;
+  padding: 0.9em 1.5em;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  height: 75px;
+  width: 75px;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 7px;
+  float: left;
+}
